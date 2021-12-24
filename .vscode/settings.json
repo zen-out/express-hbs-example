@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "node_modules": false,
+    "package-lock.json": false,
+    "package.json": false
+  },
+  "dimmer.enabled": true,
+  "workspace.isHidden": false
+}

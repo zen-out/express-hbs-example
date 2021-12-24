@@ -1,0 +1,19 @@
+{
+    "name": "expresslayouts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "express": "^4.17.2",
+        "express-hbs": "^2.4.0",
+        "handlebars-helpers": "^0.10.0",
+        "i18n": "^0.13.3"
+    }
+}

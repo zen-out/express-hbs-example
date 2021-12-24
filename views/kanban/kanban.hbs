@@ -1,0 +1,18 @@
+{{!< layout}}
+
+
+i am in kanban/kanban, i refer to layout <br />
+{{#if user.theme}}
+  i am in kanban, i can grab the data
+  {{user.theme}}
+  {{!-- can refer to partials like so  --}}
+  {{> "cute"}}
+{{else}}
+  render this instead
+{{/if}}
+{{#block "kanbanBlock"}}
+  i am in block
+{{/block}}
+{{#contentFor 'kanbanBlock'}}
+  kanban
+{{/contentFor}}
